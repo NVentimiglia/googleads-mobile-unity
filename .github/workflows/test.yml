@@ -62,7 +62,7 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          protjectPath: samples/HelloWorld
+          projectPath: samples/HelloWorld
       - uses: actions/upload-artifact@v3
         with:
           name: Test results (all modes)
