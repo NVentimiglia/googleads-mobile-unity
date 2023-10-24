@@ -129,7 +129,7 @@ jobs:
       - uses: game-ci/unity-test-runner@v2
         id: testRunner
         with:
-          projectPath: test-projects/test-project
+          projectPath: samples/HelloWorld
           testMode: editmode
 
       # Upload artifact
